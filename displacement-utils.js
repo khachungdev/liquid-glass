@@ -74,16 +74,16 @@ function getDisplacementMap({ height, width, radius, depth }) {
  * los filtros desde el primer `feColorMatrix` hasta el último `feBlend` pueden eliminarse 
  * si el efecto no es necesario.
  */
-function getDisplacementFilter({ 
-    height, 
-    width, 
-    radius, 
-    depth, 
-    strength = 100, 
-    chromaticAberration = 0 
+function getDisplacementFilter({
+    height,
+    width,
+    radius,
+    depth,
+    strength = 100,
+    chromaticAberration = 0
 }) {
     const displacementMapUrl = getDisplacementMap({ height, width, radius, depth });
-    
+
     const svg = `<svg height="${height}" width="${width}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg">
         <defs>
             <filter id="displace" color-interpolation-filters="sRGB">
