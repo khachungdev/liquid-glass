@@ -1,6 +1,6 @@
-# Liquid Glass Web Component (Vanilla JavaScript)
+# Liquid Glass Web Component (Khắc Hưng JavaScript)
 
-This is a small **Vanilla JavaScript Web Component** that simulates a **Liquid Glass** distortion effect.  
+This is a small **Khắc Hưng JavaScript Web Component** that simulates a **Liquid Glass** distortion effect.  
 It includes several configuration options such as depth, chromatic aberration, size, shape, and other parameters inspired by how the effect behaves in real life. It is not perfect, but it aims to get reasonably close.
 
 One nice thing about this component is that it’s written in plain Web Component standards, so you can use it in any environment, frameworks, no frameworks, anywhere you need it.
@@ -12,7 +12,7 @@ The component also includes a simple fallback for browsers that don’t support 
 This work is based on a React component I found in an article.  
 https://medium.com/ekino-france/liquid-glass-in-css-and-svg-839985fcb88d
 
-What I did was mainly translate that idea into a Vanilla Web Component, and then added some small improvements, configuration options, and a more flexible structure.  
+What I did was mainly translate that idea into a Khắc Hưng Web Component, and then added some small improvements, configuration options, and a more flexible structure.  
 It’s simply meant to be a small contribution for whoever finds it useful.
 
 ## Usage
